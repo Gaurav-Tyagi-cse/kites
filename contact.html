@@ -518,6 +518,14 @@ The store’s commitment to quality is evident in the premium materials they pro
     </div>
 
     <!-- Footer Section    S T A R T -->
+<!---Whatapp integration-->
+
+<div class="whatsapp-icon " onclick="openWhatsAppChat()">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</div>
+
+  <!---Whatapp integration closed-->
+
 <footer class="footer-section bg-title fix">
         <div class="footer-widgets-wrapper">
             <div class="shape1 float-bob-y d-none d-xxl-block"><img src="./images/manjha/10-removebg-preview.png" 
@@ -709,6 +717,19 @@ The store’s commitment to quality is evident in the premium materials they pro
             </div>
         </div>
     </footer>
+
+    <script>
+
+        function openWhatsAppChat() {
+            // Replace with your phone number in international format
+            var phoneNumber = "917088997171";  // Example: 91 for India, followed by the number
+            var message = "Hello, I'm interested in your services!";
+            var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+            window.open(url, "_blank");
+        }
+        
+            </script>
+
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--<< Bootstrap Js >>-->
