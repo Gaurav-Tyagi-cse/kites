@@ -3,7 +3,7 @@ Theme Name: Fresheat
 Author: Gramentheme
 Author URI: https://themeforest.net/user/gramentheme 
 Version: 1.0.0 
-Description: Fresheat food & Restaurant   <
+Description:    <
 
 -------------------------------------------------------------------
 JS TABLE OF CONTENTS
