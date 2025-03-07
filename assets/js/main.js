@@ -849,3 +849,17 @@ JS TABLE OF CONTENTS
 
 })(jQuery); // End jQuery
 
+
+// Whatshapp 
+
+
+
+function openWhatsAppChat() {
+    // Replace with your phone number in international format
+    var phoneNumber = "+919509360109";  // Example: 91 for India, followed by the number
+    var message = "Hello, I'm interested in your services!";
+    var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    window.open(url, "_blank");
+}
+
+ 
