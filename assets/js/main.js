@@ -888,3 +888,35 @@ function openWhatsAppChat() {
     });
 
 
+
+    //  Swiper JS
+
+
+
+    var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1, // Default: 1 slide in mobile
+        spaceBetween: 20,
+        autoplay: {
+            delay: 3000, // Auto-slide every 3 sec
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            992: { // When screen width is >= 992px (Desktop)
+                slidesPerView: 3, // Show 3 cards
+                autoplay: false, // Disable auto-slide in desktop
+                navigation: false, // Hide navigation arrows in desktop
+                pagination: false, // Hide pagination dots in desktop
+            }
+        }
+    });
+
+
+// 
