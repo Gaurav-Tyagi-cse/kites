@@ -863,3 +863,28 @@ function openWhatsAppChat() {
 }
 
  
+
+// 
+
+
+    document.querySelectorAll(".custom-whatsapp-btn").forEach(button => {
+        button.addEventListener("click", function(event) {
+            event.preventDefault(); // Default behavior stop karega
+            
+            let card = this.closest(".custom-dishes-card"); // Parent card le raha hai
+            let title = card.querySelector("h3").innerText; // Product ka title
+            let description = card.querySelector(".custom-text").innerText; // Description
+            let price = card.querySelector("h6").innerText; // Price
+            let phoneNumber = "919509360109"; // WhatsApp number
+
+            // WhatsApp ke liye message format
+            let message = `🌟 *${title}* 🌟\n\n📌 ${description}\n💰 Price: ${price}\n\nCan you provide more details?`;
+
+            let whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+            // WhatsApp URL open karega
+            window.location.href = whatsappUrl;
+        });
+    });
+
+

@@ -3301,7 +3301,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1399px) {
   .main-header-wrapper .logo-image {
-    padding: 35px 0px;
+    padding: 0px 0px;
   }
 }
 @media (max-width: 1199px) {
@@ -12920,10 +12920,8 @@ background-color: #128C7E;
    
 }
 }
-  
-
-
 
 .header-section{
    background-color: #010F1C;
 }
+
