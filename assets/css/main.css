@@ -3296,7 +3296,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1600px) {
   .main-header-wrapper .logo-image {
-    padding: 35px 30px 43px 30px;
+    padding: 0px;
   }
 }
 @media (max-width: 1399px) {
@@ -5376,7 +5376,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1399px) {
   .banner-wrapper.style3 .shape3 {
-    width: 450px;
+    width: 400px;
     bottom: initial;
     top: 50%;
     left: 50%;
